@@ -1,0 +1,65 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1,
+p {
+  text-align: center;
+}
+p,
+span {
+  font-size: 20px;
+}
+.left {
+  text-align: left;
+}
+/* Это основной родитель */
+.btn-list {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+  /* Это кнопки радиус */
+  /* Это кнопка шаг */
+  /* Это колонки */
+}
+.btn-list .btn-controller {
+  display: inline-block;
+  width: 40%;
+}
+.btn-list .btn-step {
+  width: 60%;
+  display: inline-block;
+}
+.btn-list .btn-step input {
+  margin-left: -5px;
+  width: 70%;
+  height: 20px;
+}
+.btn-list .btn-list-item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px 5px 20px 5px;
+  width: 30%;
+  margin: 5px;
+  vertical-align: top;
+  background-color: darkgray;
+  /* Это кнопка фона */
+  /* Это кнопка полученного результата */
+}
+.btn-list .btn-list-item button {
+  height: 20px;
+}
+.btn-list .btn-list-item .btn-background input {
+  width: 50%;
+}
+.btn-list .btn-list-item .result {
+  width: 80%;
+  margin: 0 auto;
+  height: 40px;
+  background: #CCC;
+  border: 2px solid #777;
+  border-radius: 0;
+}
